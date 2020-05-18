@@ -1,10 +1,11 @@
 
-# sdfdsfsf
+# My Project
   
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 ## Description
   
-sdfs
+This is the greatest project known to man
   
 ## Table of Contents
 * [Install](#install)
@@ -19,28 +20,32 @@ sdfs
   
 Install dependencies for this application by running command:
   
-    sfdsd
+    npm i
   
 ## Usage
   
-sdfsd
+It's available to the public
   
 ## License
   
-Project is licensed under the following: MIT
+Project is licensed under the following: APACHE 2.0
   
 ## Contributing
   
-fsdfsf
+Commit often
   
 ## Tests
   
 The following test(s) can be used to verify functionality: 
   
-    fsdfsdf
+    npm test
+
 ## Questions
-If you have any questions about the repo, open an issue or contact [afd] directly at 
+
+If you have any questions about the repo, open an issue or contact [abazrafshan] directly at abazrafshan123@gmail.com
+
 ## Links
-Link to deployed application: dsf
-Link to Github repo: (https://github.com/afd/sdfdsfsf)
+
+Link to deployed application: myproject.com
+Link to Github repo: (https://github.com/abazrafshan/My Project)
   

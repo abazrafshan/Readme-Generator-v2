@@ -83,42 +83,6 @@ function promptUser(){
     ]);
 }
 
-// async function writeToFile(fileName, data) {
-//     const content = await generateMarkdown.generateMarkdown(data);
-//     await writeFileAsync(fileName, content, function(err){
-//         if (err){
-//             return console.log(err);
-//         }
-//             console.log("success");
-//         });
-// }
-
-// async function writeToFile(fileName, data) {
-//     try{
-//     const content = await generateMarkdown.generateMarkdown(data);
-//     await writeFileAsync(fileName, content);
-//         console.log("success");
-// } catch(err)
-// {
-//     console.log(err);
-// }};
-
-
-
-// async function init() {
-//     try{
-//         await promptUser();
-    
-//     await writeToFile("readme.md",content);
-//     console.log("success");
-
-//     } catch(err) {
-//         console.log(err);
-//     }
-// };
-
-// init();
-
 // Data is passed to this function and uses template literal to populate contents of readme
 function generateMarkdown(data) {
     let lic = ``;
@@ -144,6 +108,7 @@ function generateMarkdown(data) {
 # ${data.projectName}
   
 ${lic}
+
 ## Description
   
 ${data.description}
@@ -180,9 +145,13 @@ ${data.contribute}
 The following test(s) can be used to verify functionality: 
   
     ${data.test}
+
 ## Questions
+
 If you have any questions about the repo, open an issue or contact [${data.username}] directly at ${data.email}
+
 ## Links
+
 Link to deployed application: ${data.projectURL}
 Link to Github repo: (https://github.com/${data.username}/${data.projectName})
   
